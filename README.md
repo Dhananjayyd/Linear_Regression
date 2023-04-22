@@ -17,3 +17,19 @@
 >First, we would plot the data to see if there is a linear relationship between the variables. Here's what the plot might look like:
 >
 >![LR_graph](https://user-images.githubusercontent.com/107355282/233765336-3a2d46cd-5206-4885-87fd-fa5802400bc0.png)
+>
+>From the plot, it appears that there is a positive linear relationship between height and weight - as height increases, weight tends to increase as well.
+>
+>Next, we would fit a linear regression model to the data. We would specify weight as the dependent variable and height as the independent variable. The model equation >would be:
+>
+>weight = b0 + b1 * height
+>
+>where b0 is the intercept and b1 is the slope.
+>
+>We would use a method like least squares to estimate the values of b0 and b1 that best fit the data. Once we have estimated these coefficients, we can use the >equation to make predictions for new values of height.
+>
+>For example, if we want to predict the weight of a person who is 6 feet tall, we would plug 6 into the equation:
+>
+>weight = b0 + b1 * 6
+>
+>and solve for weight.
