@@ -16,7 +16,8 @@
 >
 >First, we would plot the data to see if there is a linear relationship between the variables. Here's what the plot might look like:
 >![LR_graph](https://user-images.githubusercontent.com/107355282/233765629-8a608837-7476-4838-8162-2176e3c3e70b.png)
-From the plot, it appears that there is a positive linear relationship between height and weight - as height increases, weight tends to increase as well.
+>
+>From the plot, it appears that there is a positive linear relationship between height and weight - as height increases, weight tends to increase as well.
 >
 >Next, we would fit a linear regression model to the data. We would specify weight as the dependent variable and height as the independent variable. The model equation >would be:
 >
