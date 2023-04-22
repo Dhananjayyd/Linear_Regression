@@ -65,7 +65,7 @@
 >
 >Overall, while linear regression is a useful tool for modeling relationships between variables, it has limitations and may not be appropriate for all types of data or >research questions.
 
-** This Algorithm might tend to overfit.
+** This Algorithm might tend to overfit.**
 
 
 
