@@ -49,8 +49,23 @@
 >
 >Overall, linear regression is a powerful tool for modeling relationships between variables and making predictions about future outcomes.
 
+#### Disadvantages
 
+>**Linearity assumption**: Linear regression assumes that the relationship between the dependent and independent variables is linear. If the relationship is not >linear, the model may not fit the data well and produce inaccurate predictions.
+>
+>**Outliers**: Linear regression is sensitive to outliers, which can have a significant impact on the estimated coefficients and the model's predictive accuracy.
+>
+>**Multicollinearity**: If the independent variables in a multiple regression model are highly correlated with each other, it can lead to multicollinearity, which can >make it difficult to interpret the coefficients and make accurate predictions.
+>
+>**Non-independence of errors**: Linear regression assumes that the errors are independent and identically distributed. If there is non-independence of errors, such as >in time series data, the model may not be appropriate.
+>
+>**Overfitting**: Linear regression can overfit the data if the model is too complex or if there are too many independent variables relative to the sample size, which >can lead to poor generalization to new data.
+>
+>**Lack of robustness**: Linear regression can be sensitive to changes in the data and the model assumptions, which can make it less robust than other modeling >techniques.
+>
+>Overall, while linear regression is a useful tool for modeling relationships between variables, it has limitations and may not be appropriate for all types of data or >research questions.
 
+** This Algorithm might tend to overfit.
 
 
 
