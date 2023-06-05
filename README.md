@@ -116,7 +116,18 @@ x = data[[
     'RAD'
 ]]
      
+y = data[['TAX',
+          'ZN',
+          'CHAS',
+          'AGE',
+          'MEDV'
+]]
      
+y = np.array(y)  // Converting y into array form
+     
+print(x, y)  
+
+
 
 
 
