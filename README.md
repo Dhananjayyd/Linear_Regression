@@ -156,6 +156,11 @@
 >     
 > (506, 5) //output
 
+> l_reg = linear_model.LinearRegression()
+     
+> plt.scatter(x, y)  //plotting graph between x and y
+     
+<matplotlib.collections.PathCollection at 0x7f4b94ea1db0>
 
 
 
