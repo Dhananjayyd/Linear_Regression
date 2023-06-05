@@ -180,6 +180,8 @@
      
 <matplotlib.collections.PathCollection at 0x7f4b94ea1db0>
 
+![lg](https://github.com/Dhananjayyd/Linear_Regression/assets/107355282/a7931835-b6c8-4ffd-a3f5-615ac3932cf2)
 
+> 
 
 
