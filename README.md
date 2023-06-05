@@ -68,7 +68,7 @@
 
 ** This Algorithm might tend to overfit.**
 
-***Code for training,testing and finding the predictions and accuracy of the model***
+# Code for training,testing and finding the predictions and accuracy of the model
 
 ## Importing the required module ##
 
@@ -89,6 +89,33 @@
 ### Reading the csv file/dataset
 
 > data = pd.read_csv('/content/HousingData.csv')
+>
+> print(data.head()) //printing the dataset
+>     
+>//output of dataset
+>
+>      CRIM    ZN  INDUS   CHAS   NOX     RM   AGE    DIS    RAD  TAX    PTRATIO  \
+> 0  0.00632  18.0   2.31   0.0  0.538  6.575  65.2  4.0900    1  296     15.3   
+> 1  0.02731   0.0   7.07   0.0  0.469  6.421  78.9  4.9671    2  242     17.8   
+> 2  0.02729   0.0   7.07   0.0  0.469  7.185  61.1  4.9671    2  242     17.8   
+> 3  0.03237   0.0   2.18   0.0  0.458  6.998  45.8  6.0622    3  222     18.7   
+> 4  0.06905   0.0   2.18   0.0  0.458  7.147  54.2  6.0622    3  222     18.7   
+>
+>       B    LSTAT   MEDV  
+> 0  396.90   4.98  24.0  
+> 1  396.90   9.14  21.6  
+> 2  392.83   4.03  34.7  
+> 3  394.63   2.94  33.4  
+> 4  396.90    NaN  36.2  
+
+x = data[[
+    'CRIM',
+    'INDUS',
+    'NOX',
+    'DIS',
+    'RAD'
+]]
+     
      
 
 
