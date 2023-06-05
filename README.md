@@ -70,28 +70,25 @@
 
 ***Code for training,testing and finding the predictions and accuracy of the model***
 
-###Importing the required module
+## Importing the required module ##
 
 > import numpy as np
+> 
 > from sklearn import datasets
+>   
+> from sklearn import linear_model
+>     
+> from sklearn.model_selection import train_test_split
+>   
+> from matplotlib import pyplot as plt
+>     
+> import pandas as pd
+>     
+> from sklearn.preprocessing import LabelEncoder
      
+### Reading the csv file/dataset
 
-from sklearn import linear_model
-     
-
-from sklearn.model_selection import train_test_split
-     
-
-from matplotlib import pyplot as plt
-     
-
-import pandas as pd
-     
-
-from sklearn.preprocessing import LabelEncoder
-     
-
-data = pd.read_csv('/content/HousingData.csv')
+> data = pd.read_csv('/content/HousingData.csv')
      
 
 
