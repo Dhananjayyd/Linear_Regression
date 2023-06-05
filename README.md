@@ -182,6 +182,18 @@
 
 ![lg](https://github.com/Dhananjayyd/Linear_Regression/assets/107355282/a7931835-b6c8-4ffd-a3f5-615ac3932cf2)
 
-> 
+> plt.show()
+     
+> x_train, y_train, x_test, y_test = train_test_split(x, y, test_size = 0.2)
+     
+> model = l_reg.fit(x_train, y_train)
 
+> predictions = model.predict(x_test)
 
+> acc = accuracy_score(y_test, predictions)
+ 
+> print("predictions: " , predictions)
+
+> print("Actual:" , y_test)
+
+> print("Accuracy:", acc)
